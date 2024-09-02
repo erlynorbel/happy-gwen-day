@@ -2,7 +2,10 @@
   "name": "happy-gwen-day",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://erlynorbel.github.io/happy-gwen-day/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "vite",
     "serve": "vite",
     "build": "tsc && vite build"
